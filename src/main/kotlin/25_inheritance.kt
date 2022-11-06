@@ -19,7 +19,9 @@ fun main(args: Array<String>) {
     hayvon.color = "white"
     hayvon.eat()
 }
-
+/*
+ *      Sinfni meros qilib olish uchun uni open kalit so'z bilan belgilang
+ */
 open class Hayvon {         // Super class / Ota-onalar class / Asosiy class
 
     var color: String = ""
