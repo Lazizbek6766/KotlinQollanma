@@ -15,14 +15,14 @@ fun main(args: Array<String>) {
     cat.meow()
     cat.eat()
 
-    val hayvon = Hayvon()
+    val hayvon = Animal()
     hayvon.color = "white"
     hayvon.eat()
 }
 /*
  *      Sinfni meros qilib olish uchun uni open kalit so'z bilan belgilang
  */
-open class Hayvon {         // Super class / Ota-onalar class / Asosiy class
+open class Animal {         // Super class / Ota-onalar class / Asosiy class
 
     var color: String = ""
 
@@ -31,7 +31,7 @@ open class Hayvon {         // Super class / Ota-onalar class / Asosiy class
     }
 }
 
-class Dog : Hayvon() {      // Kichik class / Olingan class
+class Dog : Animal() {      // Kichik class / Olingan class
 
     var bread: String = ""
 
@@ -40,7 +40,7 @@ class Dog : Hayvon() {      // Kichik class / Olingan class
     }
 }
 
-class Cat : Hayvon() {      // Kichik class / Olingan class
+class Cat : Animal() {      // Kichik class / Olingan class
 
     var age: Int = 0
 
