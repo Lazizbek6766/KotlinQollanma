@@ -4,7 +4,7 @@
 *
 * Bu asosiy funktsiya. Ilovaning kirish nuqtasi.
 * */
-
+//utfiuyvfjytfuhgktf
 fun main(args: Array<String>) {     // Bu ichki sharh ...
     print("Hello World")
 }

@@ -6,6 +6,8 @@ fun main(args: Array<String>) {
 
     println(10)
 
+    println("10")
+
     println(true)
 
     println(10 / 2)

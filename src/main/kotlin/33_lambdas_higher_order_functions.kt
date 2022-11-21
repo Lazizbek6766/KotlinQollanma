@@ -21,6 +21,7 @@ fun main(args: Array<String>) {
 
     val myLambda: (Int) -> Unit = { s: Int -> println(s)}   // Lambda Expression [ Function ]
     program.addTwoNumbers(3, 7, myLambda)
+    program.addTwoNumbers(2,19)
 }
 
 class Program {
